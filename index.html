@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+
+</head>
+<body>
+    
+    <section>
+        <div class="display">
+            <div class="calculos">
+                <p class="resposta">0</p>
+            </div>
+
+            <div class="botoes">
+                    <button id="ac" onclick="funcionalidades('AC')">AC</button>
+                    <button id="pot" onclick="funcionalidades('pot')">Pot</button>
+                    <button id="porc" onclick="funcionalidades('porc')">%</button>
+                    <button id="soma" onclick="funcionalidades('soma')">+</button>
+                    <button id="num7" onclick="funcionalidades('7')">7</button>
+                    <button id="num8" onclick="funcionalidades('8')">8</button>
+                    <button id="num9" onclick="funcionalidades('9')">9</button>
+                    <button id="sub" onclick="funcionalidades('sub')">-</button>
+                    <button id="num4" onclick="funcionalidades('4')">4</button>
+                    <button id="num5" onclick="funcionalidades('5')">5</button>
+                    <button id="num6" onclick="funcionalidades('6')">6</button>
+                    <button id="mult" onclick="funcionalidades('mult')">*</button>
+                    <button id="num1" onclick="funcionalidades('1')">1</button>
+                    <button id="num2" onclick="funcionalidades('2')">2</button>
+                    <button id="num3" onclick="funcionalidades('3')">3</button>
+                    <button id="div" onclick="funcionalidades('div')">/</button>
+                    <button id="num0" onclick="funcionalidades('0')">0</button>
+                    <button id="point" onclick="funcionalidades('point')">.</button>
+                    <button id="del" onclick="funcionalidades('del')"><img class="delete" src="backspace.png" alt="Delete-icon"></button>
+                    <button id="iqual" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="calculadora.js"></script>
+
+</body>
+</html>
